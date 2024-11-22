@@ -2,7 +2,8 @@ table {
     border-collapse: collapse;
 }
 
-th, td{
+
+ td{
     border: 1px solid black;
     padding: 0.25rem;
     font-size: 18px;
@@ -10,4 +11,11 @@ th, td{
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+ 
+th {
+    border: 1px solid black;
+    padding: 0.25rem;
+    font-size: 18px;
+    background-color: rgb(35, 160, 49);
 }
